@@ -13,18 +13,18 @@
 git clone <your-repo-url>
 ```
 
-### 3. Backend Setup (NestJS)
+### 2. Backend Setup (NestJS)
 ```bash
 cd backend
 npm install
 
 ```
-## Create .env
+### 3. Create .env
 ```bash
 DATABASE_URL="file:./dev.db"
 PORT=5200
 ```
-## Run db and migration
+### 4. Run db and migration
 ```bash
 npx prisma init
 npx prisma migrate dev --name init
