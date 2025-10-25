@@ -30,3 +30,8 @@ npx prisma init
 npx prisma migrate dev --name init
 npm run seed
 ```
+### 5.(Optional)  Run Docker compose 
+First of all move docker-compose.yaml from backend to general folder that consists of both backend and frontend
+```bash
+docker-compose up -d
+```
