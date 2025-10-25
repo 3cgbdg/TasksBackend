@@ -9,7 +9,7 @@ COPY . .
 
 
 RUN npx prisma generate
-RUN npx ts-node prisma/seed.ts
+
 
 EXPOSE 5200
 CMD ["npm", "run", "start:dev"]
