@@ -12,5 +12,5 @@ RUN npx prisma generate
 
 
 EXPOSE 5200
-CMD ["npm", "run", "start:dev"]
+CMD ["npm", "run", "start"]
 
